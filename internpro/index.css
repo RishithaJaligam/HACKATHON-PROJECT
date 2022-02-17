@@ -1,0 +1,205 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+ 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 234, 248);
+    
+
+}
+.combo{
+    display:flex;
+}
+
+h1{
+    font-family: brush script;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.navbar{
+    color:cornsilk;
+    padding:20px;
+    display: flex;
+    width:auto;
+    height:auto;
+    align-items: center;
+    justify-content:space-between;
+    border:2px solid black;
+    background-color: #333;
+    box-shadow: 3px 5px 3px 3px black;
+    margin-bottom: 11px;
+   
+}
+.navigators{
+    display:flex;
+    gap:20px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    padding-left: 30px;
+    padding-right:30px;
+    width:90%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    text-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    gap:6px;
+
+}
+p{
+
+    font-size: large;
+    color:black;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    width:200px;
+    border:2px solid black;
+    padding:3px;
+    border-radius: 10px;
+    color:cornsilk;
+    background-color:rgb(175, 57, 57);
+    box-shadow: 3px 3px 4px 3px black ;
+}
+button:hover{
+    background-color: cornsilk;
+    color:#333;
+}
+
+ 
+/*about us */
+
+
+.box{
+    display:flex;
+    flex-direction: column;
+    gap:18px;
+    padding:22px;
+}
+.box1{
+    border:4px solid white;
+    padding:7px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px black ;
+    background-color: rgb(212, 243, 202);
+}
+.box2{
+    border:4px solid white;
+    padding:7px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px black ;
+    background-color: rgb(252, 188, 188);
+  
+}
+.box3{
+    border:4px solid white;
+    padding:7px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px black ;
+    background-color: rgb(252, 222, 142);
+    
+}
+.box4{
+    border:4px solid white;
+    padding:7px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px black ;
+    background-color: rgb(247, 183, 241);
+
+}
+
+
+/*contact us*/
+.set{
+    display: flex;
+    justify-content: space-evenly;
+    gap:100px;
+    padding:20px;
+    
+}
+.img11{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.img22{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.conc{
+    display:flex;
+    flex-direction:column;
+    gap:60px;
+}
+.contactbox{
+    width:300px;
+    height:auto;
+    padding:15px;
+    border:2px solid white;
+    border-radius:9px;
+    background-color:rgb(231, 245, 108) ;
+    box-shadow: 3px 3px 4px 3px black ;
+}
+
+.btn{
+    width:30%;
+    border:2px solid black;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: green;
+}
+ input{
+    border-radius:3px;
+    border:2px solid black;
+}
+
+/*team info*/
+
+.parent{
+    padding:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display:flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+
+}
+.child{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    border:4px solid white;
+    border-radius: 20px;
+    padding:10px;
+    background-color:rgb(192,196,157);
+    box-shadow: 3px 3px 4px 3px black ;
+
+}
+img{
+    width:200px;
+    height: 190px;
+    border-radius: 18px;
+
+}
+p{
+    text-align: center;
+}
